@@ -1,1 +1,1 @@
-export const SessionTokenKey = 'oscars-2025-session-id'
+export const SessionTokenKey = 'oscars-2026-session-id'

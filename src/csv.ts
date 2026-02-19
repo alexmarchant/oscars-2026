@@ -3,7 +3,7 @@ import { Categories } from './lib/nominees'
 import { writeFile } from 'fs/promises'
 
 
-const filename = 'oscar-pool-2024-results.csv'
+const filename = 'oscar-pool-2026-results.csv'
 
 interface UserEntity {
   id: number
