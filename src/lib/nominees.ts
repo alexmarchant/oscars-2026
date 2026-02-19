@@ -8,260 +8,271 @@ export const Categories: Category[] = [
   {
     name: "Best Picture",
     nominees: [
-      "Anora",
-      "The Brutalist",
-      "A Complete Unknown",
-      "Conclave",
-      "Dune: Part Two",
-      "Emilia Pérez",
-      "I'm Still Here",
-      "Nickel Boys",
-      "The Substance",
-      "Wicked"
+      "Bugonia",
+      "F1",
+      "Frankenstein",
+      "Hamnet",
+      "Marty Supreme",
+      "One Battle After Another",
+      "The Secret Agent",
+      "Sentimental Value",
+      "Sinners",
+      "Train Dreams"
     ],
     points: 10
   },
   {
     name: "Best Director",
     nominees: [
-      "Sean Baker — Anora",
-      "Brady Corbet — The Brutalist",
-      "James Mangold — A Complete Unknown",
-      "Jacques Audiard — Emilia Pérez",
-      "Coralie Fargeat — The Substance"
+      "Paul Thomas Anderson — One Battle After Another",
+      "Ryan Coogler — Sinners",
+      "Josh Safdie — Marty Supreme",
+      "Joachim Trier — Sentimental Value",
+      "Chloé Zhao — Hamnet"
     ],
     points: 8
   },
   {
     name: "Best Actor in a Leading Role",
     nominees: [
-      "Adrien Brody — The Brutalist",
-      "Timothée Chalamet — A Complete Unknown",
-      "Colman Domingo — Sing Sing",
-      "Ralph Fiennes — Conclave",
-      "Sebastian Stan — The Apprentice"
+      "Timothée Chalamet — Marty Supreme",
+      "Leonardo DiCaprio — One Battle After Another",
+      "Ethan Hawke — Blue Moon",
+      "Michael B. Jordan — Sinners",
+      "Wagner Moura — The Secret Agent"
     ],
     points: 8
   },
   {
     name: "Best Actress in a Leading Role",
     nominees: [
-      "Cynthia Erivo — Wicked",
-      "Karla Sofía Gascón — Emilia Pérez",
-      "Mikey Madison — Anora",
-      "Demi Moore — The Substance",
-      "Fernanda Torres — I'm Still Here"
+      "Jessie Buckley — Hamnet",
+      "Rose Byrne — If I Had Legs I'd Kick You",
+      "Kate Hudson — Song Sung Blue",
+      "Renate Reinsve — Sentimental Value",
+      "Emma Stone — Bugonia"
     ],
     points: 8
   },
   {
     name: "Best Actor in a Supporting Role",
     nominees: [
-      "Yura Borisov — Anora",
-      "Kieran Culkin — A Real Pain",
-      "Edward Norton — A Complete Unknown",
-      "Guy Pearce — The Brutalist",
-      "Jeremy Strong — The Apprentice"
+      "Benicio del Toro — One Battle After Another",
+      "Jacob Elordi — Frankenstein",
+      "Delroy Lindo — Sinners",
+      "Sean Penn — One Battle After Another",
+      "Stellan Skarsgård — Sentimental Value"
     ],
     points: 6
   },
   {
     name: "Best Actress in a Supporting Role",
     nominees: [
-      "Monica Barbaro — A Complete Unknown",
-      "Ariana Grande — Wicked",
-      "Felicity Jones — The Brutalist",
-      "Isabella Rossellini — Conclave",
-      "Zoe Saldaña — Emilia Pérez"
+      "Elle Fanning — Sentimental Value",
+      "Inga Ibsdotter Lilleaas — Sentimental Value",
+      "Amy Madigan — Weapons",
+      "Wunmi Mosaku — Sinners",
+      "Teyana Taylor — One Battle After Another"
     ],
     points: 6
   },
   {
     name: "Best Original Screenplay",
     nominees: [
-      "Anora — Sean Baker",
-      "The Brutalist — Brady Corbet, Mona Fastvold",
-      "A Real Pain — Jesse Eisenberg",
-      "September 5 — Moritz Binder, Tim Fehlbaum; Co-Written by Alex David",
-      "The Substance — Coralie Fargeat"
+      "Blue Moon — Robert Kaplow",
+      "It Was Just an Accident — Jafar Panahi",
+      "Marty Supreme — Ronald Bronstein and Josh Safdie",
+      "Sentimental Value — Eskil Vogt, Joachim Trier",
+      "Sinners — Ryan Coogler"
     ],
     points: 5
   },
   {
     name: "Best Adapted Screenplay",
     nominees: [
-      "A Complete Unknown — James Mangold, Jay Cocks",
-      "Conclave — Peter Straughan",
-      "Emilia Pérez — Jacques Audiard; In collaboration with Thomas Bidegain, Léa Mysius and Nicolas Livecchi",
-      "Nickel Boys — RaMell Ross & Joslyn Barnes",
-      "Sing Sing — Clint Bentley, Greg Kwedar; Story by Clint Bentley, Greg Kwedar, Clarence Maclin, John 'Divine G' Whitfield"
+      "Bugonia — Will Tracy",
+      "Frankenstein — Guillermo del Toro",
+      "Hamnet — Chloé Zhao and Maggie O'Farrell",
+      "One Battle After Another — Paul Thomas Anderson",
+      "Train Dreams — Clint Bentley & Greg Kwedar"
     ],
     points: 5
   },
   {
     name: "Best Costume Design",
     nominees: [
-      "A Complete Unknown — Arianne Phillips",
-      "Conclave — Lisy Christl",
-      "Gladiator II — Janty Yates and Dave Crossman",
-      "Nosferatu — Linda Muir",
-      "Wicked — Paul Tazewell"
+      "Avatar: Fire and Ash — Deborah L. Scott",
+      "Frankenstein — Kate Hawley",
+      "Hamnet — Malgosia Turzanska",
+      "Marty Supreme — Miyako Bellizzi",
+      "Sinners — Ruth E. Carter"
     ],
     points: 3
   },
   {
     name: "Best Makeup and Hairstyling",
     nominees: [
-      "A Different Man",
-      "Emilia Pérez",
-      "Nosferatu",
-      "The Substance",
-      "Wicked"
+      "Frankenstein",
+      "Kokuho",
+      "Sinners",
+      "The Smashing Machine",
+      "The Ugly Stepsister"
     ],
     points: 3
   },
   {
     name: "Best Cinematography",
     nominees: [
-      "The Brutalist — Lol Crawley",
-      "Dune: Part Two — Greig Fraser",
-      "Emilia Pérez — Paul Guilhaume",
-      "Maria — Ed Lachman",
-      "Nosferatu — Jarin Blaschke"
+      "Frankenstein — Dan Laustsen",
+      "Marty Supreme — Darius Khondji",
+      "One Battle After Another — Michael Bauman",
+      "Sinners — Autumn Durald Arkapaw",
+      "Train Dreams — Adolpho Veloso"
     ],
     points: 4
   },
   {
     name: "Best Visual Effects",
     nominees: [
-      "Alien: Romulus",
-      "Better Man",
-      "Dune: Part Two",
-      "Kingdom of the Planet of the Apes",
-      "Wicked"
+      "Avatar: Fire and Ash",
+      "F1",
+      "Jurassic World Rebirth",
+      "The Lost Bus",
+      "Sinners"
     ],
     points: 3
   },
   {
     name: "Best Sound",
     nominees: [
-      "A Complete Unknown",
-      "Dune: Part Two",
-      "Emilia Pérez",
-      "Wicked",
-      "The Wild Robot"
+      "F1",
+      "Frankenstein",
+      "One Battle After Another",
+      "Sinners",
+      "Sirāt"
     ],
     points: 2
   },
   {
     name: "Best Film Editing",
     nominees: [
-      "Anora — Sean Baker",
-      "The Brutalist — David Jancso",
-      "Conclave — Nick Emerson",
-      "Emilia Pérez — Juliette Welfling",
-      "Wicked — Myron Kerstein"
+      "F1 — Stephen Mirrione",
+      "Marty Supreme — Ronald Bronstein and Josh Safdie",
+      "One Battle After Another — Andy Jurgensen",
+      "Sentimental Value — Olivier Bugge Coutté",
+      "Sinners — Michael P. Shawver"
     ],
     points: 3
   },
   {
     name: "Best Production Design",
     nominees: [
-      "The Brutalist",
-      "Conclave",
-      "Dune: Part Two",
-      "Nosferatu",
-      "Wicked"
+      "Frankenstein",
+      "Hamnet",
+      "Marty Supreme",
+      "One Battle After Another",
+      "Sinners"
     ],
     points: 3
   },
   {
     name: "Best Original Score",
     nominees: [
-      "The Brutalist — Daniel Blumberg",
-      "Conclave — Volker Bertelmann",
-      "Emilia Pérez — Clément Ducol and Camille",
-      "Wicked — John Powell and Stephen Schwartz",
-      "The Wild Robot — Kris Bowers"
+      "Bugonia — Jerskin Fendrix",
+      "Frankenstein — Alexandre Desplat",
+      "Hamnet — Max Richter",
+      "One Battle After Another — Jonny Greenwood",
+      "Sinners — Ludwig Göransson"
     ],
     points: 4
   },
   {
     name: "Best Original Song",
     nominees: [
-      "El Mal — Emilia Pérez",
-      "The Journey — The Six Triple Eight",
-      "Like A Bird — Sing Sing",
-      "Mi Camino — Emilia Pérez",
-      "Never Too Late — Elton John: Never Too Late"
+      "Dear Me — Diane Warren: Relentless",
+      "Golden — KPop Demon Hunters",
+      "I Lied to You — Sinners",
+      "Sweet Dreams of Joy — Viva Verdi!",
+      "Train Dreams — Train Dreams"
     ],
     points: 3
   },
   {
     name: "Best Animated Feature Film",
     nominees: [
-      "Flow",
-      "Inside Out 2",
-      "Memoir of a Snail",
-      "Wallace & Gromit: Vengeance Most Fowl",
-      "The Wild Robot"
+      "Arco",
+      "Elio",
+      "KPop Demon Hunters",
+      "Little Amélie or the Character of Rain",
+      "Zootopia 2"
     ],
     points: 5
   },
   {
     name: "Best International Feature Film",
     nominees: [
-      "Brazil — I'm Still Here",
-      "Denmark — The Girl with the Needle",
-      "France — Emilia Pérez",
-      "Germany — The Seed of the Sacred Fig",
-      "Latvia — Flow"
+      "Brazil — The Secret Agent",
+      "France — It Was Just an Accident",
+      "Norway — Sentimental Value",
+      "Spain — Sirāt",
+      "Tunisia — The Voice of Hind Rajab"
     ],
     points: 4
   },
   {
     name: "Best Animated Short Film",
     nominees: [
-      "Beautiful Men",
-      "In the Shadow of the Cypress",
-      "Magic Candies",
-      "Wander to Wonder",
-      "Yuck!"
+      "Butterfly",
+      "Forevergreen",
+      "The Girl Who Cried Pearls",
+      "Retirement Plan",
+      "The Three Sisters"
     ],
     points: 2
   },
   {
     name: "Best Live Action Short Film",
     nominees: [
-      "A Lien",
-      "Anuja",
-      "I'm Not a Robot",
-      "The Last Ranger",
-      "The Man Who Could Not Remain Silent"
+      "Butcher's Stain",
+      "A Friend of Dorothy",
+      "Jane Austen's Period Drama",
+      "The Singers",
+      "Two People Exchanging Saliva"
     ],
     points: 2
   },
   {
     name: "Best Documentary Feature Film",
     nominees: [
-      "Black Box Diaries",
-      "No Other Land",
-      "Porcelain War",
-      "Soundtrack to a Coup d'Etat",
-      "Sugarcane"
+      "The Alabama Solution",
+      "Come See Me in the Good Light",
+      "Cutting Through Rocks",
+      "Mr. Nobody Against Putin",
+      "The Perfect Neighbor"
     ],
     points: 4
   },
   {
     name: "Best Documentary Short Film",
     nominees: [
-      "Death by Numbers",
-      "I Am Ready, Warden",
-      "Incident",
-      "Instruments of a Beating Heart",
-      "The Only Girl in the Orchestra"
+      "All the Empty Rooms",
+      "Armed Only With a Camera: The Life and Death of Brent Renaud",
+      "Children No More: Were and Are Gone",
+      "The Devil Is Busy",
+      "Perfectly a Strangeness"
     ],
     points: 2
+  },
+  {
+    name: "Best Casting",
+    nominees: [
+      "Hamnet — Nina Gold",
+      "Marty Supreme — Jennifer Venditti",
+      "One Battle After Another — Cassandra Kulukundis",
+      "The Secret Agent — Gabriel Domingues",
+      "Sinners — Francine Maisler"
+    ],
+    points: 3
   }
 ];
 
