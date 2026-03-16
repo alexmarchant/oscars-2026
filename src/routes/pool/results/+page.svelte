@@ -8,6 +8,16 @@ import axios from 'axios'
 
 export let data
 
+const TIED_WINNERS: Record<string, string[]> = {
+  'Best Live Action Short Film': ['The Singers', 'Two People Exchanging Saliva']
+}
+
+function isCorrect(categoryName: string, nominee: string): boolean {
+  const tied = TIED_WINNERS[categoryName]
+  if (tied) return tied.includes(nominee)
+  return nominee === data.winners[categoryName]
+}
+
 async function fetchWinners() {
   try {
     const res = await axios.get<Record<string, string>>('/api/winners')
@@ -23,9 +33,8 @@ function score (user: UserWithVotes): number {
 
   for (const vote of user.votes) {
     const category = CategoryMap[vote.category]
-    const winner = data.winners[vote.category]
 
-    if (vote.nominee === winner) {
+    if (isCorrect(vote.category, vote.nominee)) {
       sum += category.points
     }
   }
@@ -47,8 +56,8 @@ $: usersWithVotesAndScores = data.paidUsers.map<DispalyUserModel>(user => ({
 $: sortedUsersWithVotesAndScores = usersWithVotesAndScores.sort((a, b) => b.score - a.score)
 
 function votePrefix(user: DispalyUserModel, category: Category): string {
-  if (!data.winners[category.name]) return ''
-  return user.voteMap[category.name] === data.winners[category.name] ? '✅ - ' : '❌ - '
+  if (!data.winners[category.name] && !TIED_WINNERS[category.name]) return ''
+  return isCorrect(category.name, user.voteMap[category.name]) ? '✅ - ' : '❌ - '
 }
 
 // Get winners every 5 seconds
@@ -72,7 +81,7 @@ setInterval(fetchWinners, 5000)
       <TD></TD>
       <TD></TD>
       {#each Categories as category}
-        <TD>{data.winners[category.name] ?? ''}</TD>
+        <TD>{TIED_WINNERS[category.name]?.join(' / ') ?? data.winners[category.name] ?? ''}</TD>
       {/each}
     </tr>
     <tr>
